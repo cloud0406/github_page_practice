@@ -1,0 +1,25 @@
+{
+  "name": "github_page_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloud0406/github_page_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloud0406/github_page_practice/issues"
+  },
+  "homepage": "https://cloud0406.github.io/github_page_practice",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
